@@ -589,6 +589,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10cdf48124ab22045a22ec00c0cee681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1464301054}
+  continueButton: {fileID: 587238163}
   gameOverText: {fileID: 1917018028}
   scoreSystem: {fileID: 450560447}
   gamOverDisplay: {fileID: 541792688}
@@ -793,7 +795,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 529420381}
         m_TargetAssemblyTypeName: GameOverHandler, Assembly-CSharp
-        m_MethodName: Continue
+        m_MethodName: ContinueButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
